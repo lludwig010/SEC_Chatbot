@@ -1,0 +1,10 @@
+{
+    "chromaRecipe": {
+        "Num_Chunks": 8,
+        "Data_Path": [
+            "Recipe\\Banana Bread.pdf",
+            "Recipe\\CARROT-CAKE.pdf"
+        ],
+        "Embedding_Function_Used": "OllamaEmbeddings"
+    }
+}
