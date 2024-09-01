@@ -15,7 +15,7 @@ def main():
     parser = argparse.ArgumentParser()
     parser.add_argument("--prompt", type=str, help="Prompt to ask LLM")
     parser.add_argument("--embedding_function", default="OllamaEmbeddings", type=str, help="Select The Embedding Function")
-    parser.add_argument("--chroma_db_name", default="chroma", type=str, help="chroma database name to use")
+    parser.add_argument("--chroma_db_name", default="chromaSEC", type=str, help="chroma database name to use")
     args = parser.parse_args()
 
     query_text = args.prompt 
@@ -42,7 +42,7 @@ def query_rag(query_text, embedding, chroma_path):
     db = Chroma(persist_directory=chroma_path, embedding_function=embedding_func)
 
     #Ensure that the database is called correctly
-    print("Number of chunks in the database:", len(db))
+    #print("Number of chunks in the database:", len(db))
 
     #Retrieving the context from the DB using similarity search
     results = db.similarity_search_with_relevance_scores(query_text, k=3)

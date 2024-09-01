@@ -6,5 +6,14 @@
             "Recipe\\CARROT-CAKE.pdf"
         ],
         "Embedding_Function_Used": "OllamaEmbeddings"
+    },
+    "chromaSEC": {
+        "Num_Chunks": 6278,
+        "Data_Path": [
+            "data\\PLAW-111publ203.pdf",
+            "data\\sa33.pdf",
+            "data\\sea34.pdf"
+        ],
+        "Embedding_Function_Used": "OllamaEmbeddings"
     }
 }
