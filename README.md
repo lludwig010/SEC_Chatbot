@@ -17,7 +17,8 @@ The user can use the querey_vector_database.py script to chat with the chatbot. 
 -embedding_function: embedding function to use for prompt and querying against vector database, whatever embedding was used for the database needs to be consistent<br />
 -chroma_db_name: the database id to be finding the context from<br />
 
-If the user is using the default SEC database already created, they can use the basic frontend to ask their question and receive an answer.
+If the user is using the default SEC database already created, they can use the basic frontend built with Flask to ask their question and receive an answer. To launch the front end, run App.py and follow the instructions within the terminal
+to connect to a local host in the webb browser. From there the user can ask any question to the SEC chatbot.
 
 
 
