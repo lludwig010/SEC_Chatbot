@@ -20,6 +20,9 @@ The user can use the querey_vector_database.py script to chat with the chatbot. 
 If the user is using the default SEC database already created, they can use the basic frontend built with Flask to ask their question and receive an answer. To launch the front end, run App.py and follow the instructions within the terminal
 to connect to a local host in the webb browser. From there the user can ask any question to the SEC chatbot.
 
+#  Current Databases
+Two databases are already setup one having the SEC documentation named "chromaSEC" and the other having banana bread and carrot cake recipes named "chromaRecipe". Both use the "nomic-embed-text" embedding.
+
 
 
 
