@@ -8,6 +8,7 @@ Calling the Add_To_Database.py script adds pdf documents to the vectorized datab
 -chroma_db_name: assigns identification to the vectorized database<br />
 -embedding_function: method utilized for the embedding function for chunking and querying, currently only supports Ollama nomic-text-embedding<br />
 -reset: given the chroma_db_name argument along with it, will remove that database<br />
+
 A databases.json file exists that updates along with adding or removing files from databases and databases<br />
 
 #  Chatbot Usage - Prompting chatbot
