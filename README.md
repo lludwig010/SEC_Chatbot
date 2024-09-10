@@ -2,6 +2,9 @@
 SEC and FINRA documents establishing rules and regulation for public and private securities exchanges are dense and difficult to interpret without proper legal training and contexts. This chatbot uses LLM + RAG framework with the context of the SEC documents from 1933, 1934 and Dodd-Frank Wall Street Reform & Consumer Protection Act to answer complex financial questions.
 This project also contains the methods to add any pdf files to a new user defined vector database seperate from the SEC documentation, or to further add to the current SEC documentation in the database. Furthermore, it provides visualization for what documents are in the database through a JSON file. Finally, there is a very simple frontend for the dfault SEC chatbot with the context of the default SEC vector database. If custom databases are created using this framework, the user can utilize the chatbot through the command line.
 
+# Conda Environement
+All packages used are in the requirements.txt file to create a conda environment.
+
 #  Chatbot Usage - Adding to Vectorized Database
 Calling the Add_To_Database.py script adds pdf documents to the vectorized database to be queried later. The script supports the following arguments:<br />
 -data_path: path to the data_directory of pddf files to add to vector database<br />
